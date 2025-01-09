@@ -1,0 +1,42 @@
+model_id: CompVis/stable-diffusion-v1-4
+result_root: /home/initno1/exp/tammo
+benchmark: dnb
+subset_key: color_objects_scene
+max_seed_numbers: 1000
+image_nums: 10
+run_sd: false
+run_initno: true
+visu_attn: False
+visu_mask_construct: False
+visu_denoising_process: False
+guidance_scale: 7.5
+num_inference_steps: 50
+max_iter_to_alter: 35
+scale_factor: 20
+do_adaptive_opt: true
+max_layout_iter: 5
+max_shape_iter: 15
+max_texture_iter: 35
+attn_sampling_rate: 5
+initno:
+  K: 1
+  self_attn_type: initno
+  opt_keys:
+  - ane    
+  - self_attn
+  
+denoising:
+  K: 1  
+  iterative_refine: false
+  layout_opt_key:
+  - ane
+  shape_opt_key:
+  - cross_shape
+  texture_opt_key:
+  - cross_mask
+  mask_loss_type: ba
+  fg: True
+  filtering: True
+mask:
+  res: 32
+  num_segments: 5
