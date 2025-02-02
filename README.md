@@ -18,5 +18,6 @@ To generate an image, you can simply run the run_single.py script. For example,
 ```
 python run_single.py
 ```
-NOTE change configuration in config folder before generating.
+### NOTE 
+please change configuration in config folder before generating.
 
