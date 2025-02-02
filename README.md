@@ -4,7 +4,8 @@ Abstract: Text-to-image generation aims to create visually compelling images ali
 
 paper link: https://www.mdpi.com/2079-9292/14/3/412
 # Problem statement
-Existing text-to-image generation works still suffers from semantic leakage, which is resulted on subject neglect, subject mixing, and wrong attribute binding
+Existing text-to-image generation works suffers from semantic leakage because they don't consider a temporal property of text embedding during diffusion sampling.
+As a result, generated images exhibit issues of semantic leakage such as subject neglect, subject mixing, and wrong attribute binding.
 ![Image](https://github.com/user-attachments/assets/9cbeedf8-8442-4f33-936d-196326a9240d)
 # Prpopsed method
 Leveraging temporal property of text embedding in diffusion denoising sampling process, we adaptively optimize the latent by dynamic loss.
