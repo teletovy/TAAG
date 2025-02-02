@@ -4,5 +4,5 @@ Abstract: Text-to-image generation aims to create visually compelling images ali
 
 ![Image](https://github.com/user-attachments/assets/8c04590b-8fd4-4b00-b8b0-aaeba9093be7)
 
-# Requirements
-# Executions
+# Usage
+
