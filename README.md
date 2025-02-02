@@ -14,3 +14,6 @@ Leveraging temporal property of text embedding in diffusion denoising sampling p
 ![Image](https://github.com/user-attachments/assets/a3a8fbee-fb96-42d3-ad58-a531cb55e56d)
 
 # Demo
+"""
+python run_demo.py
+"""
